@@ -7,16 +7,7 @@
 4. Eğer forma bilgi girilmezse kullaniciyi uyar
 */
 
-/* 
 
-<li class="list-group-item d-flex justify-content-between align-items-center">
-A list item
-<span class="badge text-bg-primary rounded-pill">14</span>
-</li>
-
-*/
-
-// 1. adım
 let userFormDOM = document.querySelector("#userForm")
 userFormDOM.addEventListener('submit', formHandler)
 const alertDOM = document.querySelector("#alert")
